@@ -6,18 +6,18 @@ A ferramenta em questão tem como finalidade ter o controle de todos os usuário
 
 Intenção do exercício e resultados previstos do Projeto:
 
-> Criar uma estrutura visivelmente limpa para fácil entendimento de usuários;
-> Criar um código em SQL sólido para não haver discrepâncias de informação;
-> Criar tela login com Token, utilizando a API da empresa Google (Google OAuth) para melhorar a segurança do usuário;
-> Criar validações de uso de logins e senhas;
-> Criar um executável para criar uma tarefa funcional no computador do usuário.
+* Criar uma estrutura visivelmente limpa para fácil entendimento de usuários;
+* Criar um código em SQL sólido para não haver discrepâncias de informação;
+* Criar tela login com Token, utilizando a API da empresa Google (Google OAuth) para melhorar a segurança do usuário;
+* Criar validações de uso de logins e senhas;
+* Criar um executável para criar uma tarefa funcional no computador do usuário.
 
 Lembrando que este exercício é meramente teórico/prático afim de desenvolver conhecimento sobre:
 
-> Linguagem Python
-> Banco de Dados
-> Integração a partir de um Sistema de gerenciamento de banco de dados
-> Integração com APIs externas
+* Linguagem Python
+* Banco de Dados
+* Integração a partir de um Sistema de gerenciamento de banco de dados
+* Integração com APIs externas
 
 Cordialmente,
 
