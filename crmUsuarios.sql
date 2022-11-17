@@ -9,8 +9,6 @@ CREATE TABLE usuariosSistema
 
 		usuario VARCHAR (50),
 		senha VARCHAR (15),
-
-
 	)
 
 CREATE TABLE bancos
@@ -18,10 +16,7 @@ CREATE TABLE bancos
 		id_banco INT,
 
 		nome_banco VARCHAR (50) NOT NULL,
-		codigo_banco INT NOT NULL,
-		
-
-
+		codigo_banco INT NOT NULL,	
 	)
 
 CREATE TABLE usuariosBancos
@@ -38,8 +33,6 @@ CREATE TABLE usuariosBancos
 		visao_loja_usuario_banco VARCHAR (4) NOT NULL,
 		robo_usuario_banco VARCHAR (4) NOT NULL,
 		aprovador_usuario_banco VARCHAR (4) NOT NULL,
-
-
 )
 
 CREATE TABLE usuariosCertificados
@@ -57,11 +50,6 @@ CREATE TABLE usuariosCertificados
 		telefone_usuario_certificado INT NOT NULL,
 		nome_mae_usuario_certificado VARCHAR (15) NOT NULL,
 		nome_pai_usuario_certificado VARCHAR (15) NOT NULL,
-
-
-
-
-
 	)
 
 CREATE TABLE promotoras
@@ -75,5 +63,4 @@ CREATE TABLE promotoras
 		CONSTRAINT fk2_promotoras FOREIGN KEY () REFERENCES (),
 		CONSTRAINT fk3_promotoras FOREIGN KEY () REFERENCES (),
 		CONSTRAINT fk4_promotoras FOREIGN KEY () REFERENCES (),
-
 	)
