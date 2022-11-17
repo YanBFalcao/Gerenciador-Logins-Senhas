@@ -77,14 +77,3 @@ CREATE TABLE promotoras
 		CONSTRAINT fk4_promotoras FOREIGN KEY () REFERENCES (),
 
 	)
-
-
-	CREATE TABLE Carro
-(
-    ID_Carro integer PRIMARY KEY AUTOINCREMENT,
-    Nome varchar(255),
-    Marca varchar(255),
-    ID_Pessoa integer,
-    CONSTRAINT fk_PesCarro FOREIGN KEY (ID_Pessoa) REFERENCES Pessoa (ID_Pessoa)
-);
-
